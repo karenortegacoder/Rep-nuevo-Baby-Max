@@ -142,6 +142,7 @@ body {
 .footer{
     background-color:wheat;
     margin-top: 70px;
+    background: linear-gradient(90deg,#F7BC68,#FBAB7E); 
 }
 .footer1{
     margin-top: 30px;
