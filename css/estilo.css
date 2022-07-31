@@ -13,77 +13,83 @@ body {
     color: #333;
 }  
 
-/* HEADER */
 
-.tanLogo{
-    width: 80px;
+
+
+.estilo1{
+    background-color: red;
 
 }
 
+.promo{
+    color: #fff;
+    margin-left: 35px;
+   
+}
+
+/* HEADER */
 .ancla{
     font-size: 1rem;
     font-weight: bold;
-    color: #FFFFFF;
+   color: red;
     text-transform: uppercase;
 }
 
 
 .colorFondo{
-    background-color: orange;
-}
-
- .contenedorMx{
-    border-top: 2px solid orange;
-    border-radius: 3px;
-    height: 250px;
-    width: 500px;
-    margin: 30px;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0; 
-    margin: auto;
-    background-color: #fff;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    /* box shadow */
-    box-shadow: 20px 2px 10px;
-    /* Opacidad */
-    opacity: 90%;
-    max-width: 90%;
-
+    background-color: floralwhite;
 
 }
-
- .contenedorMx h2{
-    color:grey;
-    
-}
-
- .contenedorMx h3{
+.ButtonColor{
     color: #FF5733;
-    font-size: 5em;
 }
-.contenedorMx p{
-   font-weight: bold;
-   color: grey;
-}  
 
-.botonAsociar {
-    text-decoration: none;
-    font-size: 14px;
-    letter-spacing: 1px;
-    display: inline-block;
-    padding: 14px 32px;
-    border-radius: 4px;
+.logo{
+    width: 200px;
+    height: 120px;
+}
+
+/* Registrarse */
+
+.imagenGaleria2{
+    
+    height: 250px;
+    width: 900px;
+  
+}
+
+
+.color{
+    background-color: rgb(189, 210, 210);
+    background: linear-gradient(90deg,#D9AFD9, #97D9E1);
+   
+}
+
+.estiloCaja{
+   
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.colorCaja{
     color: #fff;
-    background-color: orange;
+    font-weight: bold;
+}
 
-} 
+.colorCaja2{
+    color: #fff;
+    margin-top: 30px;
+}
+
+.btn-color{
+    color: #FF5733;
+}
+
+.btn{
+    background-color: #fff;
+}
 
 /* GRID */
 
@@ -118,8 +124,21 @@ body {
 
 .imglogo{
     width: 40px;
+   
 }
 
+.imagenGaleria4{
+    width: 100%;
+    height: 250px;
+   
+    
+
+}
+
+.hover:hover{
+    border: 3px solid red;
+   
+}
 /* GRILLA */
 
 .row{
@@ -130,35 +149,24 @@ body {
     width: 400px;
 }
 
+
+/* MODELOS DE ROPA */
 .estiloImagen1{
     height: 350px;
     width: 400px;
+    margin-left: 10px;
+  
 }
 
-.estiloModelos{
-    margin-top: 40px;
-}
-
-.footer{
-    background-color:wheat;
-    margin-top: 70px;
-    background: linear-gradient(90deg,#F7BC68,#FBAB7E); 
-}
-.footer1{
-    margin-top: 30px;
-    color: white;
-}
-
-
-.estiloImagen3{
-    width: 250px;
+.estiloModelos:hover{
+    border: 5px solid white;
     
-
 }
+
 
 /* imagen de Fondo Productos */
 .fotos{
-   margin-top: 30px;
+   margin-bottom: 40px;
    
 }
 
@@ -175,29 +183,91 @@ body {
 
 /* categorias */
 
+
+.grilla1:hover{
+    border: 5px solid beige;
+}
 .categorias{
-    width: 100px;
+    width: 300px;
     margin-top: 70px;
     color: #FF5733;
     font-weight: bolder;
     font-size: 1.2rem;
 }
 
+.cardEstilo{
+    color: black;
+    text-align: center;
+}
+
+.cardEstilo1{
+    color: grey;
+    text-align: center;
+ 
+}
+.cardColor{
+    color: #C87E6F;
+  text-transform: uppercase ;
+  font-size: 1em;
+  text-align: center;
+  font-weight: bold;
+}
+
+.galeriaImagen{
+    height: 285px;
+}
+
+.bebeEstilo{
+    width: 500px;
+    height: 700px;
+}
+
+.imagenGaleria4{
+    height: 350px;
+}
+
+.botonAsociar {
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 14px 32px;
+    border-radius: 4px;
+    color: #fff;
+    background-color: chocolate;
+
+} 
+
 /* Quienes Somos */
 
 .QuienesSomos{
-  max-width: auto;
-  margin-top: 20px;
+  margin-left: 20px;
+  margin-top: 30px;
+  display: flex;
+  display: inline-block;
+ justify-content: end;
   
 }
 
 .QuienesSomos img{
-width: 400px;
+width: 300px;
+margin-right: 20px;
 }
 
 .Quienes{
-    color: #FF5733;
+    color: chocolate;
     font-weight: bold;
+}
+
+
+.colum{
+    max-width: 400px;
+    margin-left: 20px;
+   
+}
+
+.mapa{
+    gap: 30px;
 }
 
 /* CONTACTO */
@@ -205,6 +275,9 @@ width: 400px;
 
 .contacto{
     background-color:#97D9E1 ;
+    background-image: url(../img/cojunto\ bebe.jpeg) ;
+    background-position: center;
+    background-size: cover;
     flex-direction: row;
     width: 400px;
     padding: 30px;
@@ -266,12 +339,55 @@ width: 400px;
     height: 60px;
 } 
 
-.bebeEstilo{
-    width: 70px;
-    height: 100px;
+
+
+
+
+.container-boton{
+    position: fixed;
+ z-index: 999;
+    bottom: 20px;
+    right: 25px;
+  
+    transition: ease 0.3s;
+    animation: efecto 1.2s infinite;
+}
+
+.container-boton:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.boton{
+    width: 80px;
+    transition: ease 1s;
 }
 
 
+/* FOOTER */
+
+
+.colorFooter{
+    background-color:  #ececec;
+}
+
+
+.redes{
+    color: grey;
+    text-align: left;
+    font-weight: bold;
+}
+
+.reservados{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+   
+}
+
+.textoRedes{
+    color: black;
+}
 @media screen and (max-width: 480px){ 
   
     .contenedorMx{

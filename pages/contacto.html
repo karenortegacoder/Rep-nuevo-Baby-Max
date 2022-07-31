@@ -13,39 +13,63 @@
     <link rel="stylesheet" href="../css/estilo.css">
 </head>
 
-<body class="container-fluid">
-    <!-- NABVAR -->
+<body>
+    <div class="container-fluid estilo1 ">
+        <span class="promo">
+            <span class="col " data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                <b> 6 cuotas sin interés en compras superiores a $19.000</b>
+            </span>
+            <span class="col" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                <b>3 cuotas sin interés</b>
+            </span>
+            <span class="col" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                <b> HASTA 50% OFF</b>
+            </span>
+    </div>
 
-    <header class="colorFondo">
-        <nav class="navbar navbar-expand-lg ">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img class="tanLogo" src="./img/instagram_icon.png" alt="BABY MAX"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse " id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link  ancla" aria-current="page" href="../index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link ancla" href="../pages/productos.html">Productos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link ancla" href="../pages/acercadenosotros.html">Acerca de Nosotros</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link ancla" href="../pages/outlet.html">Outlet</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link ancla" href="../pages/contacto.html">Contacto</a>
-                        </li>
-                    </ul>
-                </div>
+
+    <!-- NABVAR -->
+    <nav class="navbar navbar-expand-lg colorFondo ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"> <img class="logo" src="../img/Baby_Max_444-removebg-preview.png" alt="Logo"></a>
+            <button class="navbar-toggler buttonColor" type="button " data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto ">
+                    <li class="nav-item">
+                        <a class="nav-link active-toggle ancla " aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle ancla" href="../pages/productos.html" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Productos
+                        </a>
+                        <ul class="dropdown-menu ">
+                            <li><a class="dropdown-item" href="../pages/productos.html">ROPA</a></li>
+                            <li><a class="dropdown-item" href="../pages/productos.html">CALZADO</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="../pages/productos.html">ACESSORIOS</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled-toggle ancla" href="../pages/outlet.html">Outlet</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled-toggle ancla" href="../pages/acercadenosotros.html">Acerca de Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled-toggle ancla" href="../pages/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+
             </div>
-        </nav>
-    </header>
+        </div>
+    </nav>
 
 
 
@@ -58,28 +82,61 @@
         <button class="boton">Enviar</button>
         <button class="boton">Borrar</button>
     </div>
-    <footer class="footer" class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-        <div class="col-md-4 d-flex align-items-center">
-            <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-                <svg class="bi" width="30" height="24">
-                    <use xlink:href="#bootstrap"></use>
-                </svg>
-            </a>
-            <span class="footer1" class="mb-3 mb-md-0 text-muted">© 2022 Baby Max</span>
+   
+
+    <!-- FOOTER -->
+    <div class="container-fluid">
+
+        <div class="row p-5 p-3 colorFooter ">
+
+            <div class="col-xs-12  col-md-6 col-lg-3">
+                <p class="h3 mb-5 redes"> Baby Max</p>
+                
+            </div>
+
+            <div class="col-xs-12  col-md-6 col-lg-3">
+                <p class="h5 mb-3 redes">Legales </p>
+                <div class="mb-2 textoRedes">
+                    <p> Politica de Privacidad</p>
+                    <p> Terminos y Condiciones</p>
+                </div>
+
+            </div>
+
+            <div class="col-xs-12  col-md-6 col-lg-3">
+                <p class="h5 mb-3 redes">Contacto </p>
+                <div class="mb-2 textoRedes ">
+                    <p>ventasonline@gmail.com</p>
+                    <p>(11) 33940904</p>
+                    <p>Lunes a viernes de 8 a 21 hs.</p>
+                    <div class="mb-2">
+                    <a class="textoRedes  text-decoration-none"  href="../pages/contacto.html" >Contactanos</a>
+                </div>
+            </div>
         </div>
 
-        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex ">
-            <li class="ms-3"><a class="text-muted" href="img/twi.jpg"><svg class="bi" width="100px" height="50">
-                        <use xlink:href="https://twitter.com/?lang=es"></use>
-                    </svg></a></li>
-            <li class="ms-3"><a class="text-muted" href="img/instagram_icon.png"><svg class="bi" width="24" height="24">
-                        <use xlink:href="https://instagram.com"></use>
-                    </svg></a></li>
-            <li class="ms-3"><a class="text-muted" href="img/facebook_icon.png"><svg class="bi" width="24" height="24">
-                        <use xlink:href="https://www.facebook.com/"></use>
-                    </svg></a></li>
-        </ul>
-    </footer>
+            <div class="col-xs-12  col-md-6 col-lg-3">
+                <p class="h5 mb-3 redes">Redes Sociales </p>
+                <div class="mb-2 ">
+                    <a class="textoRedes text-decoration-none" href="https://instagram.com">Instagram</a>
+                </div>
+                <div class="mb-2 ">
+                    <a class="textoRedes text-decoration-none" href="https://facebook.com">Facebook</a>
+                </div>
+                <div class="mb-2 ">
+                    <a class="textoRedes text-decoration-none" href="https://twitter.com/?lang=es">Twitter</a>
+                </div>
+            </div>
+            <div class="col-xs-12  pt-4">
+                <div class="mb-2 ">
+                <p class="texto-white reservados"> Todos los derechos reservados @2022</p>
+            </div>
+            </div>
+
+        </div>
+    </div>
+
+
 
 
 
